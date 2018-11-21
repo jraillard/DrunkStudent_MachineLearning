@@ -34,7 +34,4 @@ Adding :
 			~ 1-School
 			~ 11-Reasons (to choose school)
 		=> replace non integer values (binary and nominals)
-
-
-
 ```

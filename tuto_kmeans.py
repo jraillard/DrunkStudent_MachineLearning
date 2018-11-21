@@ -6,7 +6,6 @@ import pandas as pd
 # DATA: On retire la colonne "school", "reason" and maybe "traveltime" 
 #################################
 data_df = pd.read_csv("student-mat.csv")
-#data_df = pd.read_csv("test.csv");
 
 ids=data_df['Id'].values;print(ids)
 data_df=data_df.drop('Id',axis=1)
