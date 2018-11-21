@@ -9,4 +9,5 @@ Dataset reminder : https://www.kaggle.com/uciml/student-alcohol-consumption
 ```
 Git Init
 DataSet sorting columns
+Adding csv file and first python programs
 ```
