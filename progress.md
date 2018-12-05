@@ -11,6 +11,7 @@ Git Init
 Adding :
 	- Dataset csv file
 	- Get TD's programs : 
+		Linear regression
 		Supervised Classifier
 			=> DummyClassfier
 			=> KNeighbors
@@ -34,4 +35,22 @@ Adding :
 			~ 1-School
 			~ 11-Reasons (to choose school)
 		=> replace non integer values (binary and nominals)
+```
+
+## 05/12/2018
+
+```
+Classifier choice : 
+	=> Linear Regression : maybe ? might have too much descriptor
+	=> Supervised : best fit
+	=> Non-Supervised : got descriptors , so useless
+
+Dalc and Walc are scored between 0 and 5
+
+Start estimations
+Linear regression programs
+	Dalc => error : 0.666 (13.32%)
+	Walc => error : 0.896 (17.92%)
+	test fit with Dalc & Walc then test without Dalc column => error : 1.91 (38,2%) might be over-learning
+
 ```
