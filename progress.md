@@ -157,5 +157,14 @@ Non Supervised :
 	Class are already defined 
 	Linear regression produce good prediction
 	Seems to be determinist problem then 
+
+Test on Zanimots member team
+	Error is computed base on member team estimation
+	Mickael : Dalc = 2.16  (error rate : 18.74%)
+		  	  Walc = 3.96  (error rate : 16.64%)
+	Florent : Dalc = 1.80  (error rate : 23.97%)
+		  	  Walc = 4.21  (error rate : 16.64%)
+	Julien : Dalc = 2.66 (error rate : 13.21%)
+		  	  Walc = 3.61  (error rate : 7.82%) 
 		
 ```
