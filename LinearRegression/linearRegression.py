@@ -6,7 +6,7 @@ from sklearn import linear_model, datasets
 ###################
 # DATASET
 ###################
-data = pd.read_csv("student-mat.csv")
+data = pd.read_csv("../student-mat.csv")
 
 
 ###################
@@ -19,6 +19,7 @@ data = data.drop('reason', axis=1)
 data = data.replace(
     ['F','M','U', 'R','LE3','GT3','no','yes','A','T','teacher','health','services','at_home','other','mother','father'],
     [0,1,0,1,0,1,0,1,0,1,1,2,3,4,0,1,2])
+
 
 ###################
 # PREPARATION TRAINING/TESTING
