@@ -54,7 +54,7 @@ Start estimations
 Linear regression program
 	- With all descriptors :
 		Dalc => error : 0.666 (13.32%)
-		Walc => error : 0.896 (17.92%)
+		Walc => error : 0.896 (17.93%)
 		test fit with Dalc & Walc then test without Dalc column => error : 1.91 (38,2%) might be over-learning
 		
 ```
@@ -65,7 +65,7 @@ Linear regression program
 Retest without descriptors given by correlation matrice 
 Linear regression program
 	- With chosen descriptors :
-		Dalc => error : 0.682 (13.64%)
+		Dalc => error : 0.682 (13.66%)
 		Walc => error : 0.952 (19.04%)
 		=> better with all descriptors
 
@@ -132,25 +132,30 @@ SVM programs
 	- LinearSVC
 		k = C parameter 
 		- With all descriptors :	
-							k=2 	k=3		k=5 	k=10  	k=15
-			Dalc => error : 31.6%	22.8%	25.3%	22.8%	25.3%
-			Walc => error : 46.8%	62.2%	55.7%	50.6%	57.0%
+							k=10 	k=100	k=500 	k=1000  k=10000
+			Dalc => error : 25.3%	30.4%	26.6%   29.1%	26.6%
+			Walc => error : 55.7%	79.7%	52.0%	50.6%	49.4%
 
 		- With chosen descriptors :	
-							k=2 	k=3		k=5 	k=10  	k=15
-			Dalc => error : 26.6%	30.4%	25.3%	29.1%	22.8%
-			Walc => error : 59.5%	62.0%	55.7%	59.5%	50.7%
+							k=10 	k=100	k=500 	k=1000  k=10000
+			Dalc => error : 24.0%	29.1%	46.8%	30.4%	25.3%								
+			Walc => error : 50.6%	59.5%	46.8%	65.8%	50.6%
 	
 	- SVC 
 		k = kernel chosen 
 		- With all descriptors :	
-							k='linear'		k='poly' 	k='rbf'		k='sigmoid'  	k='precomputed'
-			Dalc => error : 
-			Walc => error : 
+							k='linear'	k='poly'	k='rbf'		k='sigmoid'
+			Dalc => error : 29.1%		29.1%		25.3%		24.1%
+			Walc => error : 46.8%		59.5%		60.8%		54.4%
 
 		- With chosen descriptors :	
-							k='linear'		k='poly' 	k='rbf'		k='sigmoid'  	k='precomputed'
-			Dalc => error : 
-			Walc => error :
+							k='linear'	k='poly' 	k='rbf'		k='sigmoid'
+			Dalc => error : 24.1%		25.3%		22.8%		24.1%
+			Walc => error :	43.0%		58.2%		59.5%		54.4%
+
+Non Supervised : 
+	Class are already defined 
+	Linear regression produce good prediction
+	Seems to be determinist problem then 
 		
 ```

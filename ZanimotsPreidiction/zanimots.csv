@@ -1,0 +1,4 @@
+Id,school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,G1,G2,G3
+0,istia,M,22,R,GT3,T,3,4,at_home,services,home,father,2,2,4,no,no,no,yes,no,yes,yes,yes,4,3,4,2,4,5,0,14,15,14
+1,istia,M,22,U,GT3,T,4,4,other,other,home,father,1,2,4,no,no,no,no,yes,yes,yes,yes,4,3,4,3,3,4,0,13,14,13
+2,ISTIA,M,22,U,LE3,T,3,2,other,other,home,father,1,2,4,no,no,no,yes,yes,yes,yes,yes,5,2,5,3,3,4,0,13,14,14
