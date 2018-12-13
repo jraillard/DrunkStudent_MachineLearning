@@ -11,6 +11,3 @@ https://www.kaggle.com/uciml/student-alcohol-consumption
 
 ## Technologies
 Python prediction using mainly [ScikitLearn](https://scikit-learn.org/stable/) Library. 
-
-
-
